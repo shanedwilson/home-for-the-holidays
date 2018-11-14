@@ -1,8 +1,12 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'bootstrap';
+
+import navbar from './components/Navbar/navbar';
 
 import './index.scss';
 
-console.log('index.js');
+const initApp = () => {
+  navbar.createNavbar();
+};
 
-$('.container').append('Turkey in my belly');
+initApp();
