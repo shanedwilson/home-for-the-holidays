@@ -1,0 +1,16 @@
+{
+  "holidayFriends" : {
+    "holidayFriend1" : {
+      "holidayId": "holiday1",
+      "friendId": "Stacye W."
+    },
+    "holidayFriend2" : {
+      "holidayId": "holiday1",
+      "friendId": "Nazz W."
+    }, 
+    "holidayFriend3" : {
+      "holidayId": "holiday1",
+      "friendId": "Dale W."
+    }
+  }  
+}  
