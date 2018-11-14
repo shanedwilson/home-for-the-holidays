@@ -2,15 +2,15 @@
   "holidayFriends" : {
     "holidayFriend1" : {
       "holidayId": "holiday1",
-      "friendId": "Stacye W."
+      "friendId": "friend2"
     },
     "holidayFriend2" : {
       "holidayId": "holiday1",
-      "friendId": "Nazz W."
+      "friendId": "friend3"
     }, 
     "holidayFriend3" : {
       "holidayId": "holiday1",
-      "friendId": "Dale W."
+      "friendId": "friend5"
     }
   }  
 }  
