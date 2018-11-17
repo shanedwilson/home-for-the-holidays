@@ -1,16 +1,14 @@
 {
-  "holidayFriends" : {
-    "holidayFriend1" : {
-      "holidayId": "holiday1",
-      "friendId": "friend2"
-    },
-    "holidayFriend2" : {
-      "holidayId": "holiday1",
-      "friendId": "friend3"
-    }, 
-    "holidayFriend3" : {
-      "holidayId": "holiday1",
-      "friendId": "friend5"
-    }
-  }  
+  "holidayFriend1" : {
+    "holidayId": "holiday1",
+    "friendId": "friend2"
+  },
+  "holidayFriend2" : {
+    "holidayId": "holiday1",
+    "friendId": "friend3"
+  }, 
+  "holidayFriend3" : {
+    "holidayId": "holiday1",
+    "friendId": "friend5"
+  }
 }  
