@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import authHelpers from '../../helpers/authHelpers';
+
 const formBuilder = () => {
   const form = `
   <div class="form-group">
@@ -22,4 +25,16 @@ const formBuilder = () => {
   </div>
   `;
   return form;
+};
+
+const getFriendFromForm = () => {
+  const friend = {
+    name: $('#form-friend-name').val(),
+    address: $('#form-friend-address').val(),
+    phoneNumber: $('#form-friend-phone').val(),
+    email: $('#form-friend-email').val(),
+    relationship: $('#form-friend-relationship').val(),
+    isAvoiding: false,
+    uid: authHelpers.getCurrentUid(),
+  };
 };
